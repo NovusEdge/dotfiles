@@ -102,8 +102,8 @@ case ${chosen} in
 		run_cmd --hibernate
         ;;
     $lock)
-		if [[ -x '/usr/bin/betterlockscreen' ]]; then
-			betterlockscreen -l
+		if [[ -x '/usr/bin/i3lock-fancy' ]]; then
+			i3lock-fancy
 		elif [[ -x '/usr/bin/i3lock' ]]; then
 			i3lock
 		fi
