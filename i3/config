@@ -76,7 +76,7 @@ client.urgent		    	$red        $red        $red        $black          $red
 # start a terminal
 # bindsym $mod+Return exec alacritty
 #bindsym $mod+Return exec i3-sensible-terminal
-bindsym $mod+Return exec /home/kali/.config/i3/launch_terminal.sh
+bindsym $mod+Return exec $HOME/.config/i3/launch_terminal.sh
 
 
 
